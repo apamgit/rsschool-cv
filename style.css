@@ -1,0 +1,157 @@
+body{
+    background-color: #d5d5d5;
+    font-family: Georgia, sans-serif;
+}
+
+.container {
+    background-color: #e9e7ea;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 10px 50px #858585;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    row-gap: 30px;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar {
+    display: flex;
+    justify-content: end;
+}
+
+.name {
+    padding-left: 30px;
+    border-left: 2px solid #000;
+}
+
+.name h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 0 5px;
+}
+
+.name .specialize {
+    margin: 15px 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.name .contact {
+    padding: 0;
+    list-style: none;
+}
+
+.name .contact li {
+    padding: 5px 0;
+    
+}
+
+.languages {
+    text-align: right;
+}
+
+.languages ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+}
+
+.about-me {
+    padding-left: 30px;
+    border-left: 2px solid #000;
+    text-align: justify;
+}
+
+h2 {
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.education {
+    text-align: right;
+}
+
+.education h4 {
+    margin: 20px 0 10px;
+}
+
+.course {
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.education ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 35px;
+}
+
+.work-experience {
+    padding-left: 30px;
+    text-align: justify;
+    border-left: 2px solid #000;
+}
+
+
+.skills {
+    margin: 0;
+    text-align: right;
+}
+
+.skills ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 20px;
+}
+
+.code-example {
+    padding-left: 30px;
+    border-left: 2px solid #000;
+    text-align: justify;
+    list-style: none;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.footer-ref {
+    margin: 0; 
+    padding: 0; 
+}
+
+.footer-ref li {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.footer-ref img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-ref li:last-child img{
+    width: 70px;
+    height: 70px;
+}
